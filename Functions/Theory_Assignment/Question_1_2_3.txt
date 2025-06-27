@@ -1,0 +1,35 @@
+Question 1: What are functions in JavaScript? Explain the syntax for declaring and calling a function.
+// Answer: Functions in JavaScript are reusable blocks of code that perform a specific task. They can take inputs (parameters) and return outputs (values). The syntax for declaring a function is as follows:
+function functionName(parameters) {
+    // code to be executed
+}
+// To call a function, you simply use its name followed by parentheses, optionally passing arguments:
+functionName(arguments);
+
+
+Question 2: What is the difference between a function declaration and a function expression?
+// Answer: A function declaration defines a named function that can be called before it is defined in the code. It has the following syntax:
+function functionName(parameters) {
+    // code to be executed
+}
+// A function expression, on the other hand, defines a function as part of an expression and can be anonymous. It is often assigned to a variable:
+const functionName = function(parameters) {
+    // code to be executed
+};
+// Function expressions are not hoisted, meaning they cannot be called before they are defined in the code.
+
+
+Question 3: Discuss the concept of parameters and return values in functions.
+
+// Answer: Parameters are variables that are passed into a function when it is called. They allow functions to accept inputs and operate on them. The syntax for parameters is defined in the function declaration:
+function functionName(parameter1, parameter2) {
+    // code to be executed
+}
+// Return values are the outputs that a function produces after executing its code. A function can return a value using the `return` statement:
+function functionName(parameters) {
+    // code to be executed
+    return value; // value can be any data type
+}
+// When a function is called, it can return a value that can be used later in the code:
+const result = functionName(arguments);
+// If a function does not explicitly return a value, it returns `undefined` by default.

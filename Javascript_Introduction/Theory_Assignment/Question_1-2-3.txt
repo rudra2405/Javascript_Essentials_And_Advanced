@@ -1,0 +1,18 @@
+Question 1: What is JavaScript? Explain the role of JavaScript in web development?
+// Answer:
+JavaScript is a high-level, dynamic, untyped, and interpreted programming language that is widely used for creating interactive and dynamic content on the web. It is an essential part of web development, alongside HTML and CSS, forming the core technologies for building modern web applications.
+
+
+Question 2: How is JavaScript different from other programming languages like Python orJava?
+// Answer:
+JavaScript differs from languages like Python or Java in several ways:
+1. Execution Environment: JavaScript is primarily executed in web browsers, making it the de facto language for client-side scripting. Python and Java are often used for server-side applications or standalone applications.
+2. Syntax and Typing: JavaScript uses a C-like syntax and is dynamically typed, meaning variable types are determined at runtime. Python is also dynamically typed but has a different syntax, while Java is statically typed and requires explicit type declarations.
+3. **Concurrency Model**: JavaScript uses an event-driven, non-blocking I/O model with a single-threaded event loop, which is different from Python's multi-threading capabilities and Java's multi-threaded architecture.
+4. **Object-Oriented Programming**: JavaScript uses prototype-based inheritance, while Python and Java use class-based inheritance. This leads to different approaches in object-oriented design and implementation.
+
+
+Question 3: Discuss the use of <script> tag in HTML. How can you link an external JavaScript file to an HTML
+document?
+// Answer:
+The `<script>` tag in HTML is used to embed or link JavaScript code within an HTML document. It can be placed in the `<head>` or `<body>` section of the HTML document. The `<script>` tag can contain inline JavaScript code or reference an external JavaScript file using the `src` attribute.
