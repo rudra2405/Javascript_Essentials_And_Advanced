@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Division by Zero</title>
+</head>
+
+<body>
+
+  <script>
+    try {
+      let num = 10;
+      let result = num / 0;
+
+      if (!isFinite(result)) {
+        throw new Error("Cannot divide by zero!");
+      }
+
+      console.log("Result:", result);
+    } catch (error) {
+      console.error("Error:", error.message);
+      alert("Error: " + error.message);
+    }
+  </script>
+
+  <script type="text/javascript"></script>
+</body>
+
+</html>
